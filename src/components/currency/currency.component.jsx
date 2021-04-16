@@ -7,7 +7,10 @@ const Currency = () => {
     <div className="currency">
       <header>Select Currency: </header>
       <div className="input">
-        <p>AFYA</p>
+        <select>
+          <option>AFYA</option>
+          <option>ZAR</option>
+        </select>
         <input type="number" value="0.00000001" step="0.00000001" />
       </div>
       <div className="buttons">

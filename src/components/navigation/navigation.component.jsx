@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import HomeIcon from "./../../assets/svg/home.svg";
 import ActivityIcon from "./../../assets/svg/activity.svg";
@@ -16,9 +16,7 @@ import NavButton from "../nav-button/nav-button.component";
 
 import "./navigation.scss";
 
-const Navigation = () => {
-  const [currentPage, setCurrentPage] = useState("home");
-
+const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
     <nav>
       <NavButton

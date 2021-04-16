@@ -1,33 +1,32 @@
 div.currency {
   & > header {
-    background-color: lightgray;
+    background-color: lightslategrey;
     padding: 0.5rem 1rem;
-    color: rgb(20, 149, 230);
-    font-size: 1.5rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
   }
   div.input {
     border: solid 1px lightslategrey;
     border-radius: 3px;
-    margin-top: 3rem;
+    margin: 3rem auto;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    p {
+    select {
       display: inline-block;
-      width: 20%;
-      background-color: lightslategrey;
+      width: 30%;
+      background-color: rgb(183, 196, 209);
       font-size: 1.5rem;
       padding: 0.5rem 1rem;
     }
     input {
       width: 70%;
       border: none;
+      font-size: 1.5rem;
       padding: 0.5rem 1rem;
     }
   }
 
   div.buttons {
-    margin-top: 2rem;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -40,6 +39,8 @@ div.currency {
       padding: 1rem 2rem;
       font-size: 1.8rem;
       border-radius: 8px;
+      width: 120px;
+      text-transform: uppercase;
     }
   }
 }
