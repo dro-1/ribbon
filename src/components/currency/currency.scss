@@ -1,0 +1,45 @@
+div.currency {
+  & > header {
+    background-color: lightgray;
+    padding: 0.5rem 1rem;
+    color: rgb(20, 149, 230);
+    font-size: 1.5rem;
+  }
+  div.input {
+    border: solid 1px lightslategrey;
+    border-radius: 3px;
+    margin-top: 3rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+      display: inline-block;
+      width: 20%;
+      background-color: lightslategrey;
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+    }
+    input {
+      width: 70%;
+      border: none;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  div.buttons {
+    margin-top: 2rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    button {
+      color: #fff;
+      background-color: lightskyblue;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.8rem;
+      border-radius: 8px;
+    }
+  }
+}

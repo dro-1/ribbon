@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  p {
+    font-family: Chronosfer;
+    font-size: 4rem;
+    color: #ee237a;
+  }
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    img {
+      width: 3rem;
+      &:nth-child(2) {
+        width: 2.5rem;
+      }
+    }
+  }
+}
